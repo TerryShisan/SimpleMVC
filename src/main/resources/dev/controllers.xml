@@ -1,0 +1,6 @@
+<controllers>
+    <controller>
+        <class>com.netease.data.expedited.controller.ProcessingNewController</class>
+        <path>transferingnew</path>
+    </controller>
+</controllers>

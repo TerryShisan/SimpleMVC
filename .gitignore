@@ -1,0 +1,16 @@
+*~
+target
+.idea
+*.iml
+settings.xml
+.classpath.txt
+.fullclasspath.txt
+*.ipr
+*.log
+
+# eclipse
+.project
+.buildpath
+.classpath
+.settings
+.checkstyle
