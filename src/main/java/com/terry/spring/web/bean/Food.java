@@ -5,9 +5,13 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 /**
- * Created by TerryShisan on 2017/4/30.
+ * Created by TerryShisan on 2018/2/9.
  */
 @Data
 @NoArgsConstructor
-public class Pizza extends Food{
+public class Food {
+    private float salesMoney;
+    private float costMoney;
+    private float cookingTime;
+
 }
