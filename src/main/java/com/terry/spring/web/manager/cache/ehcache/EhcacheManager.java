@@ -109,5 +109,8 @@ public class EhcacheManager implements CacheService{
         return true;
     }
 
-
+    @Override
+    public boolean put(String key, String value, int ttlSeconds) {
+        return false;
+    }
 }

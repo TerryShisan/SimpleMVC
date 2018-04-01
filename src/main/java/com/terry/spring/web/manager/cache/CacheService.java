@@ -10,6 +10,8 @@ public interface CacheService {
 
     public boolean put(String key, String value);
 
+    public boolean put(String key, String value, int ttlSeconds);
+
     public boolean putPermanent(String key, String value);
 
     public String get(String key);

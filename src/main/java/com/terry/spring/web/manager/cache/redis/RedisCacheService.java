@@ -192,7 +192,7 @@ public class RedisCacheService implements CacheService{
     }
 
     // ttlSeconds为0表示永久有效
-    private boolean put(String key, String value, int ttlSeconds) {
+    public boolean put(String key, String value, int ttlSeconds) {
         Jedis jedis = null;
         boolean result = false;
         try {
